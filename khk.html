@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sara Coren</title>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <style>
       body {
@@ -37,7 +38,7 @@
         margin-top: 0;
         margin-bottom: 1rem;
         font-size: 22px;
-        text-align: justify;
+        /* text-align: justify; */
       }
       .contact-btn {
         border: 2px solid white; 
@@ -59,6 +60,20 @@
       .contact-btn-text:hover {
         color:rgb(0, 104, 131);
       }
+      .ruby p {
+          display:none;
+      }
+      .ruby:hover p {
+          display:block;
+      }
+      .react p {
+          display: none;
+          margin-top: 20px;
+          text-align: center;
+      }
+      .react:hover p {
+          display: block;
+      }
         @media only screen and (max-width: 991px) {
         .mobile-img {
         display: none;
@@ -74,25 +89,27 @@
 <body style="background: white;">
     <div class="big-wrapper">
     <div class="nav-container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Sara Coren</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="SaraCorenResume.pdf" target="_blank">Resume</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+            <div class="container" style="width: 80%;">
+                <a class="navbar-brand" href="index.html"><img src="assets/sclogo.png" style="height: 50px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="work.html">Work</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="SaraCorenResume.pdf" target="_blank">Resume</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
@@ -119,24 +136,83 @@
                 <div class="row">
                         <div class="col-lg-12">
                             <p>
-                                <a href="https://kidshelpingkidsct.org" target="_blank" style=" color: rgb(0, 104, 131) !important;"><strong>Kids Helping Kids</strong></a> is a non-profit organization in Stamford, CT that inspires leadership through youth led service projects.  While working with answerYes consulting, I contributed to the redesign and development of their new website, building out all of the pages in WordPress, writing a custom child theme, and providing them with a style guide to use as they continue to maintain their site.
+                                Kids Helping Kids is a non-profit organization in Stamford, CT that inspires leadership through youth led service projects.  While working with answerYes consulting, I contributed to the redesign and development of their new website, building out all of the pages in WordPress, writing a custom child theme, and providing them with a style guide to use as they continue to maintain their site.<br>
+                                <br>
+                                <div style="display: flex; flex-direction: row;">
+                                    <div style="display: flex; flex-direction: row;">
+    
+                                        <p><a href="#" style=" color: rgb(0, 104, 131) !important;"><strong>Live Site</strong></a></p>
+                                        <p><a href="#" style=" color: rgb(0, 104, 131) !important; margin-left: 1.25em;"><strong>GitHub Repo</strong></a></p>
+                                    </div>
+                                    <div style="display:flex; flex-direction: row;">
+                                        <div class="react">
+                                            <img class="tech-img-1" src="assets/tech-icons/wordpress.png" style="height: 40px; width: auto; margin-left: 20px;">
+                                        </div>
+                                        <div class="ruby">
+                                            <img class="tech-img-1" src="assets/tech-icons/photoshop.jpg" style="height: 40px; width: auto; margin-left: 20px;">
+                                        </div>
+                                        <div class="ruby">
+                                                <img class="tech-img-1" src="assets/tech-icons/xd.png" style="height: 40px; width: auto; margin-left: 20px;">
+                                        </div>
+                                        <div class="ruby">
+                                                <img class="tech-img-1" src="assets/tech-icons/dreamweaver.png" style="height: 40px; width: auto; margin-left: 20px;">
+                                            </div>
+                                        <div class="ruby">
+                                            <img class="tech-img-1" src="assets/tech-icons/css.png" style="height: 40px; width: auto; margin-left: 20px;">
+                                        </div>
+                                        <div class="react">
+                                            <img class="tech-img-1" src="assets/tech-icons/balsamiq.png" style="height: 40px; width: auto; margin-left: 20px;">
+                                        </div>
+                                    </div>
+                                </div>
                             </p>
-                            <h2 style="text-align: left !important; margin-top: 40px; margin-bottom: 20px">Color Palette</h2>
-                            <span class="hr-small" style="background-color: #222; display: inline-block; height: 5px; margin-bottom: 30px; width: 100px;"></span>
-                            <div style="display: flex; flex-direction: row; justify-content: space-between;">
-                                <div style="background: rgb(40, 196, 74); height: 200px; width: 200px; margin: 10px;"></div>
-                                <div style="background: rgb(0, 146, 200); height: 200px; width: 200px; margin: 10px;"></div>
-                                <div style="background: red; height: 200px; width: 200px; margin: 10px;"></div>
-                                <div style="background: rgb(250, 118, 24); height: 200px; width: 200px; margin: 10px;"></div>
-                                <div style="background: rgb(129, 0, 146); height: 200px; width: 200px; margin: 10px;"></div>
-                            </div>
-                          
-                        
-                            <h2 style="text-align: left !important; margin-top: 40px; margin-bottom: 20px">Technologies Used</h2>
+                            <h2 style="text-align: left !important; margin-top: 40px; margin-bottom: 20px">Process</h2>
                             <span class="hr-small" style="background-color: #222; display: inline-block; height: 5px; margin-bottom: 30px; width: 100px;"></span>
                             <p>
-                                WordPress, Dreamweaver (for custom CSS), Balsamiq, Adobe XD, Photoshop
+                                Before starting the redesign, I did an invetory of KHK's current site at the time and made two site maps to reflect the current information architecture of the site and the proposed information architecture for the redesign.
+                            </p><br/>
+                            <div style="display:flex; flex-direction: row; justify-content: space-between;">
+
+                                <img src="assets/KHK Current Site Map.png" style="width: 48%;">
+                                <img src="assets/KHK Proposed Site Map REVISED 7.9.19.png" style="width: 48%;">
+                            </div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <p>
+                                Throughout the course of the project, I communicated with my team and with our client, KHK, using Basecamp. We used the message board to communicate about ongoing questions and concerns and to document our meeting notes. We also used the To-dos to manage our tasks. 
                             </p>
+                            <br>
+                            <img src="assets/Screen Shot 2020-03-14 at 10.20.16 AM.png" style="width: 100%;">
+                            <h2 style="text-align: left !important; margin-top: 40px; margin-bottom: 20px">Color Palette</h2>
+                            <span class="hr-small" style="background-color: #222; display: inline-block; height: 5px; margin-bottom: 30px; width: 100px;"></span>
+                            <p>
+                                The color pallete we chose to use reflected the colors in the KHK logo as well as a couple of complimentary accent colors.  We used the accent colors to create banners for their newsletter sign up and new project creation.
+                            </p>
+                            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                                    <div style="background: rgb(40, 196, 74); height: 200px; width: 200px; margin: 10px;"></div>
+                                    <div style="background: rgb(0, 146, 200); height: 200px; width: 200px; margin: 10px;"></div>
+                                    <div style="background: red; height: 200px; width: 200px; margin: 10px;"></div>
+                                    <div style="background: rgb(250, 118, 24); height: 200px; width: 200px; margin: 10px;"></div>
+                                    <div style="background: rgb(129, 0, 146); height: 200px; width: 200px; margin: 10px;"></div>
+                            </div>
+                            <br/>
+                            <div style="display:flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                                    <img src="assets/logo.png" style="width: 24%; height: 80%;">
+                                    <img src="assets/Screen Shot 2020-03-14 at 11.26.21 AM.png" style="width: 74%;">
+                                </div>
+                            <h2 style="text-align: left !important; margin-top: 40px; margin-bottom: 20px">Style Guide</h2>
+                            <span class="hr-small" style="background-color: #222; display: inline-block; height: 5px; margin-bottom: 30px; width: 100px;"></span>
+                            <p>
+                                The color pallete we chose to use reflected the colors in the KHK logo as well as a couple of complimentary accent colors.  We used the accent colors to create banners for their newsletter sign up and new project creation.
+                            </p>
+                        
+                            <br/>
+                            <div style="display:flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                                    <img src="assets/styleguide.png" style="width: 100%;">
+                                    
+                                </div>
+                        
                         </div>
                     </div>
             </div>
