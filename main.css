@@ -18,6 +18,15 @@ body {
     font-size: 1.2em;
 }
 
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    opacity: 70% !important;
+}
+
 .container {
     width: 80%;
 }
@@ -29,7 +38,7 @@ body {
 }
 
 .name {
-    color: rgb(0, 104, 131); 
+    color: rgb(0, 71, 106); 
     margin-top: 25px; 
     margin-bottom: 0;
     text-align: center; 
@@ -56,6 +65,20 @@ body {
     font-size: 24px;
 }
 
+.about {
+    display: flex;
+    height: 140px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-top: 2px solid lightgray;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 footer {
     display: flex;
     height: 140px;
@@ -67,6 +90,11 @@ footer {
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.email {
+    opacity: 0.7;
 }
 
 .footer-img {
