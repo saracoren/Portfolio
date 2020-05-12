@@ -44,7 +44,7 @@ a:hover {
 }
 
 .intro-div {
-    width: 50%; 
+    width: 60%; 
     margin: 0 auto;
     text-align: center; 
 }
@@ -132,6 +132,16 @@ p {
     font-size: 24px !important;
 }
 
+.side-by-side-div {
+    display:flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.side-by-side-img {
+    width: 48%;
+}
+
 .wrapper {
     width: 80%;
     margin: 0 auto;
@@ -210,11 +220,32 @@ footer {
     .intro-div {
       width: 100%;
     }
+    .side-by-side-div {
+        flex-direction: column;
+    }
+    .side-by-side-img {
+        width: 100%;
+    }
+    .side-by-side-img-2 {
+        padding-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 550px) {
+    .logo {
+        font-size: 2.2rem;
+    }
+    .name {
+        font-size: 2.65rem;
+    }
     h2 {
         font-size: 1.7rem;
+    }
+    p {
+        font-size: 1.18rem;
+    }
+    .project-title {
+        font-size: 22px;
     }
    .img-div {
        width: 100%;
